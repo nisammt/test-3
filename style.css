@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+      
+}
+
+.nav-bar ul{
+  display: flex;
+  align-items: center;
+ float: inline-end;
+  flex-direction: row;
+ 
+  list-style: none;
+  
+  
+}
+.nav-item{
+ 
+  color: white;
+  width: 70px;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30p;
+  border-radius: 20px;
+  text-align: center;
+  height: 20px;
+  
+  
+  
+}
+ul a{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-item:hover {
+  background-color: rgb(179, 179, 4);
+}
+.part-2{
+  padding: 400px;
+  margin-left: 100px;
+  height: 600px;
+  width: 300px;
+  background-color: gold;
+}
